@@ -17,7 +17,6 @@ cartBtn.addEventListener("click", function() {
     cartModal.style.display = "flex"
 })
 
-// FECHAR O MODAL QUANDO CLICAR FORA
 cartModal.addEventListener("click", function(event) {
     if(event.target === cartModal) {
         cartModal.style.display = "none"
